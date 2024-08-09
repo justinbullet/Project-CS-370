@@ -14,7 +14,7 @@ pub fn create_keypair() -> Result<(SecretKey, PublicKey), anyhow::Error> {
     // Generate a keypair
     let (secret_key, public_key) = secp.generate_keypair(&mut rng);
     // Return the keypair
-    Ok((secret_key, public_key))
+    Ok((secret_key, public_key)) XDDDDD
 }
 
 pub fn establish_web3_connection(url: &str) -> Result<Web3<Http>>{
